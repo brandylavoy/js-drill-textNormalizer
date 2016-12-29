@@ -1,5 +1,10 @@
+// look at the expected var below to compare what you are supposed to get
 function textNormalizer(text) {
-    return text.toLowerCase().trim();
+    // trim means to remove white spaces on either end of the string
+    var output = text.toLowerCase().trim();
+    //the value of this console log is going to be similar with the expected variable bellow
+    console.log(output);
+    return output;
 }
 
 
